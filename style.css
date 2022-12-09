@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#header .navbar{
+	padding: 15px 0;
+}
+
+.top-header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar .logo h1{
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(255,0,0);
+	margin-bottom: 0;
+}
+
+.navbar .logo span{
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	position: relative;
+}
+
+.navbar .logo span:before{
+	content: '';
+	position:absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: rgb(255, 0, 0);
+	top: 8px;
+	left: 46px;
+}
+
+.navbar li{
+	margin-right: 25px;
+	font-weight: 700;
+	opacity: 0.9;
+}
+
+.navbar a{
+	color: black;
+	text-decoration: none;
+}
+
+#header .home-btn{
+	color: rgb(255, 0, 0);
+}
+
+.navbar .fa-magnifying-glass{
+	border-right: 2px solid rgb(210, 210, 210); 
+	padding-right: 15px;
+	font-size: 20px;
+	margin-right: -10px;
+}
+
+.navbar .fa-bag-shopping{
+	font-size: 20px;
+	color: rgb(255, 0, 0);
+}
+
+.navbar .fa-align-left{
+	font-size: 20px;
+}
+
+#header .head{
+	background-image: url(img/teamhead.jpg);
+	background-size: cover;
+   padding: 250px 0 250px;
+   position: relative;
+}
+
+.head:before{
+	content: '';
+	position: absolute;
+   background-color: rgb(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h5{
+	color: rgb(255, 0, 0);
+	margin-bottom: 14px;
+}
+
+.head-box h1{
+	color: white;
+	font-weight: 800;
+	font-size: 70px;
+	margin-bottom: 35px;
+}
+
+.btn1{
+	padding: 12px 35px;
+	background-color: rgb(255, 0, 0);
+	border-radius: 3px;
+	margin-right: 20px;
+	color: white;
+}
+
+.head-box .btn2{
+	padding: 12px 35px;
+	background-color: white;
+	color: rgb(255, 0, 0);
+}
+
+.head-box .btn2:hover{
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+
+.head-box .fa-arrow-right{
+	font-weight: 600;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+#about-section{
+	padding: 100px 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#about-section h1{
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#about-section h6{
+	font-weight: 600;
+	font-size: 18px;
+	opacity: 0.8;
+	margin-bottom: 20px;
+}
+
+#about-section p{
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+#about-section button{
+	padding: 12px 35px;
+	background-color: rgb(255, 0, 0);
+	border-radius: 3px;
+	margin-right: 20px;
+	color: white;
+}
+
+#about-section button:hover{
+	background-color: rgb(255, 0, 0, 0.5);
+	color: white;
+}
+
+#testimonial-section{
+	padding: 100px 0;
+	font-family: 'Poppins', sans-serif;
+	background-color: #fdf6f6;
+}
+
+#testimonial-section h1{
+	font-weight: 700;
+	margin-bottom: 55px;
+}
+
+#testimonial-section .content-box{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	background-color: white;
+}
+
+
+#testimonial-section .content-text{
+	padding: 40px 32px 35px;
+	font-weight: 500;
+	font-size: 14px;
+	opacity: 0.7;
+	margin-bottom: 38px;
+}
+
+#testimonial-section .img-box{
+	position: relative;
+	display: inline-block;
+}
+
+#testimonial-section img{
+	width: 70px ;
+	height: 70px;
+	border-radius: 50%;
+   top: -34px;
+   display: block;
+   margin: auto;
+   position: relative;
+}
+
+#testimonial-section i{
+	background-color: rgb(255, 0, 0);
+	padding: 8px;
+	border-radius: 50%;
+	top: -50px;
+	right: -8px;
+	color: white;
+	position: absolute;
+}
+
+#testimonial-section .box{
+	background-color: #fdf3f3;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+#testimonial-section .box1{
+	background: rgb(255,0,0);
+   background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,64,64,1) 100%);
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+#testimonial-section p{
+	font-size: 15px;
+	margin: -4px 0;
+	opacity: 0.5;
+}
+
+#feature-section{
+	padding: 100px 0 84px;
+}
+
+#feature-section h4{
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+#feature-section p{
+   font-weight: 600;
+   opacity: 0.8;
+}
+
+#feature-section img{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+#feature-section .content-box-1{
+	border-right: 1px solid rgb(210 210 210 / 0%);
+   border-left: 1px solid rgb(210 210 210 / 0%);
+   position: relative;
+   transition: 1s;
+}
+
+
+
+#feature-section .corner-1{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 0px;
+	left: 0px;
+	border-top: 10px solid rgb(255, 0, 0);
+	border-left: 10px solid rgb(255, 0, 0);
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+}
+
+#feature-section .corner-2{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	bottom: 0;
+	right: 0;
+	border-bottom: 10px solid rgb(255, 0, 0);
+	border-right: 10px solid rgb(255, 0, 0);
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+}
+
+#feature-section .content-box-1:hover{
+	border-right: 1px solid rgb(210 210 210);
+   border-left: 1px solid rgb(210 210 210);
+}
+
+#feature-section .content-box-1:hover .corner-1,
+#feature-section .content-box-1:hover .corner-2{
+	opacity: 1;
+	visibility: visible;
+}
+
+#feature-section i{
+	font-weight: 600;
+	margin-left: 10px;
+	opacity: 0.5;
+	position: relative;
+	top: 2px;
+}
+
+#portfolio-section{
+	padding: 100px 0;
+	background-color:  rgb(255,0,0,0.1);
+}
+
+#portfolio-section h5{
+	color: rgb(255, 0, 0);
+	margin: 40px 0 12px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#portfolio-section h1{
+	color: #0b163f;
+	font-weight: 800;
+	padding-right: 100px;
+	margin-bottom: 25px;
+}
+
+#portfolio-section p{
+	font-weight: 500;
+	opacity: 0.8;
+	margin-bottom: 20px;
+}
+
+#portfolio-section li{
+	list-style: none;
+}
+
+#portfolio-section .icon{
+	background-color: white;
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+   border-radius: 50%;
+	font-size: 20px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: rgb(255, 0, 0);
+	margin-right: 8px;
+	margin-bottom: 20px;
+}
+
+#portfolio-section li{
+	font-size: 15px;
+	opacity: 0.8;
+	margin-bottom: 10px;
+}
+
+#portfolio-section .fa-check{
+	font-size: 10px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	background-color: rgb(255, 0, 0, 0.2);
+	color: rgb(255, 0, 0);
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+#portfolio-section button{
+	color: white;
+	background-color: rgb(255, 0, 0);
+	margin: 30px 0 30px;
+	padding: 10px 25px;
+}
+
+#portfolio-section button:hover{
+	background-color: rgb(255, 0, 0, 0.5);
+	color: white;
+}
+
+#portfolio-section .fa-arrow-right-long{
+	margin-left: 5px;
+	position: relative;
+	top: 2px;
+}
+
+#portfolio-section img{
+	border-radius: 20px;
+}
+
+#blog-section{
+	padding: 120px 0;
+}
+
+.seprator{
+	position: relative;
+	width: 80px;
+	height: 5px;
+	margin: auto;
+	display: inline-block;
+	background-color: red;
+	top: -15px;
+}
+
+.seprator:before{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
+	top: -3px;
+	left: -2px;
+	border-radius: 50%;
+}
+
+.seprator:after{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
+	top: -3px;
+	left: 78px;
+	border-radius: 50%;
+}
+
+#blog-section h1{
+	font-weight: 700;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 35px;
+	position: relative;
+}
+
+#blog-section .content-box{
+   padding: 20px;
+   border: 2px solid rgb(210, 210, 210, 0.2);
+   border-radius: 5px;
+}
+
+#blog-section .comment-box{
+	opacity: 0.5;
+	font-weight: 600;
+	padding: 20px 0 10px;
+}
+
+#blog-section h6{
+	font-weight: 800;
+	font-size: 22px;
+	opacity: 0.9;
+	margin-bottom: 20px;
+}
+
+#blog-section button{
+	padding: 10px 30px;
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+
+#blog-section button:hover{
+	background-color: rgb(255, 0, 0, 0.5);
+	color: white;
+}
+
+
+#footer-section{
+	padding: 100px 0;
+	background: rgb(224,224,224);
+   background: linear-gradient(180deg, rgba(224,224,224,1) 25%, rgba(0,9,77,1) 25%);
+}
+
+#footer-section .row-1{
+	background: rgb(255,0,0);
+   background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,64,64,1) 100%);
+	color: white;
+	border-radius: 5px;
+	padding: 50px;
+	align-items: center;
+}
+
+#footer-section input{
+	width: 65%;
+	padding: 15px 20px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#footer-section button{
+	padding: 14px 40px;
+	background-color: #010c3a;
+	color: white;
+	position: relative;
+	top: -2px;
+}
+
+#footer-section button:hover{
+	background-color: white;
+	color: black;
+}
+
+
+#footer-section h2{
+	font-weight: 700;
+	font-size: 37px;
+}
+
+#footer-section h1{
+	font-weight: 700;
+	font-size: 55px;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(255,0,0);
+	margin: 110px 0 40px;
+	text-align: center;
+}
+
+#footer-section span{
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	position: relative;
+}
+
+#footer-section span:before{
+	content: '';
+	position:absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgb(255, 0, 0);
+	top: 11px;
+	left: 62px;
+}
+
+#footer-section .address-box{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 100px ;
+}
+
+#footer-section .icon-1{
+	font-size: 50px;
+	color: rgb(255, 0, 0);
+	margin-right: 20px;
+	padding-top: 5px;
+}
+
+#footer-section .icon-2{
+	color: white;
+	font-weight: 500;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: rgb(255, 0, 0);
+	margin: 50px 5px 0;
+}
+
+#footer{
+	background-color: #010a2e;
+	padding: 30px 0 14px;
+	color: white;
+}
+
+#footer span{
+	color: rgb(255, 0, 0);
+}
+
+/* go to top btn css */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(255, 0, 0); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 0; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
